@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />        
+        <title>Using Bootstrap</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+    </head>
+    <body>
+     
+         
+          <nav class="navbar navbar-toggleable-md navbar-inverse navbar-light bg-faded">
+             <div class="container">
+                <div class="navbar-header">
+                    <a href="index.html" class="navbar-brand">Intermediate Web Programming (CIS 245)</a><img src="/images/logo.png" alt="logo" height="40px" width="120px">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                    
+                    </button>
+                 </div> 
+                  <ul class="nav navbar-nav navbar-right" id="myNav">
+                <li><a href="index.html">Home</a></li>
+                      <li><a href="Geolocation.html">Geolocation</a></li>
+                        <li><a href="maps.html">Maps</a></li>
+                      <li><a href="About.html">About</a></li>
+                </ul>     
+               
+             </div>
+   
+
+         </nav>
+        <div class="container">
+            <h1>Javascript</h1><hr>
+         <blockquote >
+             <p>JavaScript was created in 10 days in May 1995 <kbd>Brendan Eich</kbd>, then working at Netscape and now of Mozilla.</p>
+             <p>JavaScript was not always known as JavaScript: the original name was Mocha, a name chosen by <kbd>Marc Andreessen</kbd>.</p>
+             <footer><a href="https://www.w3.org/" target="_blank">The World Wide Web Consortium (W3C) </a></footer>
+         </blockquote> <hr> 
+         
+            <br>
+            <button class="btn btn-primary btn-lg" id="info" onclick="geoinfo()">Geolocation Information</button><br><br>
+
+            <table class="table table-stripped" id="ipinfo">
+                
+            </table>
+
+     
+     
+     
+            <div class="d-flex justify-content-center bg-dark text-white">
+            <footer class="footer"><center>
+                <hr><kbd>
+             &copy; 2018. A. Judge, N. Jhangra, N. Sohi, S. Singh. All Rights Reserved.    
+            </kbd>
+            </center>
+            </footer>
+        </div>
+     </div>
+
+        
+     
+        <script src="./js/jquery-3.2.1.min.js"></script>
+        <script src="./js/home.js"></script>
+
+        <script src="./js/bootstrap.min.js"></script> 
+      
+    </body>
+</html>
