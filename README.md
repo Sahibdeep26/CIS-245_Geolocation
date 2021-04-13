@@ -4,7 +4,7 @@ This project is built for a team project submission.
 On geolocation.html -  
 You can provide your own location and it will show you the Latitude and Longitude of your location and your location in maps as well.
 
-On index.html-
+On index.html -
 It will show you a detailed information on your location.
 
 On maps.html - 
